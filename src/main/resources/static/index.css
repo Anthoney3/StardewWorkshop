@@ -1,0 +1,222 @@
+
+.main-table {
+    font-family: Andika, cursive;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: brown ridge 10px;
+    padding: 20px;
+}
+
+.main-table td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+    font-family: Andika, cursive;
+
+}
+.main-table th {
+    border: 3px ridge brown;
+    padding: 8px;
+    text-align: center;
+    font-family: Andika, cursive;
+
+}
+
+.main-table tr:nth-child(even) {
+    background-color: #c5a6ff;
+}
+
+.main-table tr:nth-child(odd) {
+    background-color: #ac8de1;
+}
+
+.main-table tr:hover {
+    background-color: #ddd;
+}
+
+.table-header-override {
+    background: #420342 !important;
+}
+
+.main-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: white;
+
+}
+
+
+.main-table-headers {
+    position: sticky;
+    top: 0;
+}
+
+.base-price {
+    background-color: black;
+}
+
+.silver-price {
+    background-color: gray;
+}
+
+.gold-price {
+    background-color: goldenrod;
+}
+
+.purple-price {
+    background-color: purple;
+}
+
+@font-face {
+    font-family: Andika;
+    src: url("https://fonts.google.com/specimen/Andika");
+}
+
+@font-face {
+    font-family: Josefin;
+    src: url("https://fonts.google.com/specimen/Josefin+Sans");
+}
+
+
+#table-div {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    height: 100%;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #420342;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: Andika, serif;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Andika, cursive;
+}
+
+.topnav a:hover {
+    background-color: #ac8de1;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #ac8de1;
+    color: white;
+}
+
+.topnav .search-container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    justify-content: center;
+    float: right;
+    align-self: flex-end;
+    margin-left: 15%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 3%;
+    font-size: 17px;
+    border: #ffffff 2px solid;
+    background: black;
+    color: white;
+    font-family: Andika, cursive;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 10px 6px 15px;
+    margin-top: 5%;
+    margin-right: 16px;
+    margin-left: 10px;
+    font-size: 17px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url("/magnifying-glass.png") no-repeat;
+    font-family: Andika, serif;
+}
+
+.topnav .search-container button:hover {
+    background: url("/magnifying-glass_clicked.png") no-repeat;
+}
+
+.nav-form {
+    position: sticky;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+        background-image: url("/magnifying-glass.png");
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+body {
+    background: url("https://preview.redd.it/amfzanxbvw621.png?auto=webp&s=161ec7991bd06c95a1ab82b705b6615673903773") no-repeat 0 0;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+h2 {
+    font-family: Andika, cursive;
+    color: white;
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    background: #AC8DE1FF;
+    margin-bottom: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 100%;
+    border: 5px ridge black;
+}
+
+.all-seasons-checkbox {
+    width: 100%;
+    text-align: left;
+    margin-top: 2.5%;
+    font-family: Andika,cursive;
+}
+
+.title-container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+}

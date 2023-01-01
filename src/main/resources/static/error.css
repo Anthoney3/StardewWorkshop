@@ -1,0 +1,107 @@
+body{
+    background: url("https://preview.redd.it/amfzanxbvw621.png?auto=webp&s=161ec7991bd06c95a1ab82b705b6615673903773") no-repeat 0 0;
+    background-size: cover;
+    color: white;
+    font-family: Andika,cursive;
+}
+
+@font-face {
+    font-family: Andika;
+    src: url("https://fonts.google.com/specimen/Andika");
+}
+
+.topnav {
+    overflow:hidden;
+    background-color: #420342;
+    margin-top:0;
+    padding-top:0;
+    font-family: Andika,cursive;
+    height:100%;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Andika,cursive;
+}
+
+.topnav a:hover {
+    background-color: #ac8de1;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #ac8de1;
+    color: white;
+}
+
+.topnav .search-container {
+    float:right;
+    height: 100%;
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 5%;
+    font-size: 17px;
+    border: #ffffff 2px solid;
+    background: black;
+    color:white;
+    font-family: Andika,cursive;
+}
+
+.topnav .search-container button {
+    float:right;
+    padding: 6px 10px 6px 15px;
+    margin-top: 5%;
+    margin-right: 16px;
+    margin-left: 10px;
+    font-size: 17px;
+    border: none;
+    width:30px;
+    height: 30px;
+    cursor: pointer;
+    background: url("/magnifying-glass.png") no-repeat;
+    font-family: Andika,cursive;
+}
+
+.topnav .search-container button:hover {
+    background: url("/magnifying-glass_clicked.png") no-repeat;
+}
+
+.nav-form {
+    position: sticky;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a, .topnav input[type=text], .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+        background-image: url("/magnifying-glass.png");
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+h2 {
+    font-family: Andika, cursive;
+    color: white;
+    font-size: 20px;
+    float:left;
+    margin-left: 31%;
+    text-align: center;
+}

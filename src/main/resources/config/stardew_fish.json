@@ -1,0 +1,2085 @@
+{
+  "fish_data_bank": [
+    {
+      "header": {
+        "name": "Albacore",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            },
+            "fisher_profession": {
+              "base_price": "93",
+              "silver_star": "116",
+              "gold_star": "140",
+              "purple_star": "187"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "112",
+              "silver_star": "139",
+              "gold_star": "168",
+              "purple_star": "225"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-11am",
+          "6pm-2am"
+        ],
+        "season": [
+          "Fall",
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Anchovy",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "30",
+              "silver_star": "37",
+              "gold_star": "45",
+              "purple_star": "60"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "37",
+              "silver_star": "46",
+              "gold_star": "56",
+              "purple_star": "75"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "45",
+              "silver_star": "55",
+              "gold_star": "67",
+              "purple_star": "90"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "Spring",
+          "Fall"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Pufferfish",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "200",
+              "silver_star": "250",
+              "gold_star": "300",
+              "purple_star": "400"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "250",
+              "silver_star": "312",
+              "gold_star": "375",
+              "purple_star": "500"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "300",
+              "silver_star": "375",
+              "gold_star": "450",
+              "purple_star": "600"
+            }
+          }
+        ],
+        "location": [
+          "Ocean",
+          "Ginger Island Oceans"
+        ],
+        "time": [
+          "12pm-4pm"
+        ],
+        "season": [
+          "Summer",
+          "All Seasons on Ginger Island"
+        ],
+        "weather": [
+          "Sunny"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Tuna",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "125",
+              "silver_star": "156",
+              "gold_star": "187",
+              "purple_star": "250"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          }
+        ],
+        "location": [
+          "Ocean",
+          "Ginger Island Oceans"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Summer",
+          "Winter",
+          "All Seasons on Ginger Island"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Sardine",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "40",
+              "silver_star": "50",
+              "gold_star": "60",
+              "purple_star": "80"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "50",
+              "silver_star": "62",
+              "gold_star": "75",
+              "purple_star": "100"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "60",
+              "silver_star": "75",
+              "gold_star": "90",
+              "purple_star": "120"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Spring",
+          "Winter",
+          "Fall"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Bream",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "45",
+              "silver_star": "56",
+              "gold_star": "67",
+              "purple_star": "90"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "56",
+              "silver_star": "70",
+              "gold_star": "83",
+              "purple_star": "112"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "67",
+              "silver_star": "84",
+              "gold_star": "100",
+              "purple_star": "135"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)"
+        ],
+        "time": [
+          "6pm-2am"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Largemouth Bass",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "125",
+              "silver_star": "156",
+              "gold_star": "187",
+              "purple_star": "250"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          }
+        ],
+        "location": [
+          "Mountain Lake"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Smallmouth Bass",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "50",
+              "silver_star": "62",
+              "gold_star": "75",
+              "purple_star": "100"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "62",
+              "silver_star": "77",
+              "gold_star": "93",
+              "purple_star": "125"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          }
+        ],
+        "location": [
+          "River (Town) Forest Pond"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "Spring",
+          "Fall"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Rainbow Trout",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "65",
+              "silver_star": "81",
+              "gold_star": "97",
+              "purple_star": "130"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "81",
+              "silver_star": "101",
+              "gold_star": "121",
+              "purple_star": "162"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "97",
+              "silver_star": "121",
+              "gold_star": "145",
+              "purple_star": "195"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)",
+          "Mountain Lake"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Sunny"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Salmon",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "93",
+              "silver_star": "116",
+              "gold_star": "140",
+              "purple_star": "187"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "112",
+              "silver_star": "139",
+              "gold_star": "168",
+              "purple_star": "225"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Fall"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Walleye",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "105",
+              "silver_star": "131",
+              "gold_star": "157",
+              "purple_star": "210"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "131",
+              "silver_star": "163",
+              "gold_star": "196",
+              "purple_star": "262"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "157",
+              "silver_star": "196",
+              "gold_star": "235",
+              "purple_star": "315"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)",
+          "Forest Pond",
+          "Mountain Lake"
+        ],
+        "time": [
+          "12pm-2am"
+        ],
+        "season": [
+          "Fall",
+          "Winter with Rain Totem"
+        ],
+        "weather": [
+          "Rain"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Perch",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "55",
+              "silver_star": "68",
+              "gold_star": "82",
+              "purple_star": "110"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "68",
+              "silver_star": "85",
+              "gold_star": "102",
+              "purple_star": "137"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "82",
+              "silver_star": "102",
+              "gold_star": "123",
+              "purple_star": "165"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)",
+          "Forest Pond",
+          "Mountain Lake"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Carp",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "30",
+              "silver_star": "37",
+              "gold_star": "45",
+              "purple_star": "60"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "37",
+              "silver_star": "46",
+              "gold_star": "56",
+              "purple_star": "75"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "45",
+              "silver_star": "55",
+              "gold_star": "67",
+              "purple_star": "90"
+            }
+          }
+        ],
+        "location": [
+          "Mountain Lake",
+          "Secret Woods Pond",
+          "The Sewers"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Catfish",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "200",
+              "silver_star": "250",
+              "gold_star": "300",
+              "purple_star": "400"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "250",
+              "silver_star": "312",
+              "gold_star": "375",
+              "purple_star": "500"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "300",
+              "silver_star": "375",
+              "gold_star": "450",
+              "purple_star": "600"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)",
+          "Secret Woods Pond",
+          "Witch's Swamp"
+        ],
+        "time": [
+          "6am-12am"
+        ],
+        "season": [
+          "Spring",
+          "Fall",
+          "Spring & Summer in Secrets Woods Pond"
+        ],
+        "weather": [
+          "Rain"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Pike",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "125",
+              "silver_star": "156",
+              "gold_star": "187",
+              "purple_star": "250"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)",
+          "Forest Pond"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "Summer",
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Sunfish",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "30",
+              "silver_star": "37",
+              "gold_star": "45",
+              "purple_star": "60"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "37",
+              "silver_star": "46",
+              "gold_star": "56",
+              "purple_star": "75"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "45",
+              "silver_star": "55",
+              "gold_star": "67",
+              "purple_star": "90"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Spring",
+          "Summer"
+        ],
+        "weather": [
+          "Sunny",
+          "Windy"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Red Mullet",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "93",
+              "silver_star": "116",
+              "gold_star": "140",
+              "purple_star": "187"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "112",
+              "silver_star": "139",
+              "gold_star": "168",
+              "purple_star": "225"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Summer",
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Herring",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "30",
+              "silver_star": "37",
+              "gold_star": "45",
+              "purple_star": "60"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "37",
+              "silver_star": "46",
+              "gold_star": "56",
+              "purple_star": "75"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "45",
+              "silver_star": "55",
+              "gold_star": "67",
+              "purple_star": "90"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Spring",
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Eel",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "85",
+              "silver_star": "106",
+              "gold_star": "127",
+              "purple_star": "170"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "106",
+              "silver_star": "132",
+              "gold_star": "158",
+              "purple_star": "212"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "127",
+              "silver_star": "159",
+              "gold_star": "190",
+              "purple_star": "255"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "4pm-2am"
+        ],
+        "season": [
+          "Spring",
+          "Fall"
+        ],
+        "weather": [
+          "Rain"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Octopus",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "187",
+              "silver_star": "233",
+              "gold_star": "281",
+              "purple_star": "375"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "225",
+              "silver_star": "280",
+              "gold_star": "337",
+              "purple_star": "450"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-1pm"
+        ],
+        "season": [
+          "Summer"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Red Snapper",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "50",
+              "silver_star": "62",
+              "gold_star": "75",
+              "purple_star": "100"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "62",
+              "silver_star": "77",
+              "gold_star": "93",
+              "purple_star": "125"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Summer",
+          "Fall",
+          "Winter with Rain Totem"
+        ],
+        "weather": [
+          "Rain"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Squid",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "80",
+              "silver_star": "100",
+              "gold_star": "120",
+              "purple_star": "160"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "120",
+              "silver_star": "150",
+              "gold_star": "180",
+              "purple_star": "240"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-2am"
+        ],
+        "season": [
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Sea Cucumber",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "93",
+              "silver_star": "116",
+              "gold_star": "140",
+              "purple_star": "187"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "112",
+              "silver_star": "139",
+              "gold_star": "168",
+              "purple_star": "225"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Summer",
+          "Fall"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Super Cucumber",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "250",
+              "silver_star": "312",
+              "gold_star": "375",
+              "purple_star": "500"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "312",
+              "silver_star": "390",
+              "gold_star": "468",
+              "purple_star": "625"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "375",
+              "silver_star": "468",
+              "gold_star": "562",
+              "purple_star": "750"
+            }
+          }
+        ],
+        "location": [
+          "Ocean",
+          "Ginger Island Oceans"
+        ],
+        "time": [
+          "6am-2am"
+        ],
+        "season": [
+          "Summer",
+          "Fall",
+          "All seasons on Ginger Island"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Ghostfish",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "45",
+              "silver_star": "56",
+              "gold_star": "67",
+              "purple_star": "90"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "56",
+              "silver_star": "70",
+              "gold_star": "83",
+              "purple_star": "112"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "67",
+              "silver_star": "84",
+              "gold_star": "100",
+              "purple_star": "135"
+            }
+          }
+        ],
+        "location": [
+          "Mines (20,60)",
+          "Ghost Drops"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Stonefish",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "300",
+              "silver_star": "375",
+              "gold_star": "450",
+              "purple_star": "600"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "375",
+              "silver_star": "468",
+              "gold_star": "562",
+              "purple_star": "750"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "450",
+              "silver_star": "562",
+              "gold_star": "675",
+              "purple_star": "900"
+            }
+          }
+        ],
+        "location": [
+          "Mines 20F"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Ice Pip",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "500",
+              "silver_star": "625",
+              "gold_star": "750",
+              "purple_star": "1000"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "625",
+              "silver_star": "781",
+              "gold_star": "937",
+              "purple_star": "1250"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "750",
+              "silver_star": "937",
+              "gold_star": "1125",
+              "purple_star": "1500"
+            }
+          }
+        ],
+        "location": [
+          "Mines 60F"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Lava Eel",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "700",
+              "silver_star": "875",
+              "gold_star": "1050",
+              "purple_star": "1400"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "875",
+              "silver_star": "1093",
+              "gold_star": "1312",
+              "purple_star": "1750"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "1050",
+              "silver_star": "1312",
+              "gold_star": "1575",
+              "purple_star": "2100"
+            }
+          }
+        ],
+        "location": [
+          "Mines 100F",
+          "Volcano Caldera"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Sandfish",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "93",
+              "silver_star": "116",
+              "gold_star": "140",
+              "purple_star": "187"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "112",
+              "silver_star": "139",
+              "gold_star": "168",
+              "purple_star": "225"
+            }
+          }
+        ],
+        "location": [
+          "The Desert"
+        ],
+        "time": [
+          "6am-8pm"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Scorpion Carp",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "187",
+              "silver_star": "233",
+              "gold_star": "281",
+              "purple_star": "375"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "225",
+              "silver_star": "280",
+              "gold_star": "337",
+              "purple_star": "450"
+            }
+          }
+        ],
+        "location": [
+          "The Desert (Requires Fishing Lvl 4!)"
+        ],
+        "time": [
+          "6am-8pm"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Flounder",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "125",
+              "silver_star": "156",
+              "gold_star": "187",
+              "purple_star": "250"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          }
+        ],
+        "location": [
+          "Ocean",
+          "Ginger Islands Oceans"
+        ],
+        "time": [
+          "6am-8pm"
+        ],
+        "season": [
+          "Spring",
+          "Summer",
+          "All Seasons on Ginger Island"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Midnight Carp",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "187",
+              "silver_star": "233",
+              "gold_star": "281",
+              "purple_star": "375"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "225",
+              "silver_star": "280",
+              "gold_star": "337",
+              "purple_star": "450"
+            }
+          }
+        ],
+        "location": [
+          "Mountain",
+          "Lake",
+          "Cindersap",
+          "Forest Pond",
+          "Ginger Island Pond & River"
+        ],
+        "time": [
+          "10pm-2am"
+        ],
+        "season": [
+          "Fall",
+          "Winter",
+          "All Seasons on Ginger Island"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Sturgeon",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "200",
+              "silver_star": "250",
+              "gold_star": "300",
+              "purple_star": "400"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "250",
+              "silver_star": "312",
+              "gold_star": "375",
+              "purple_star": "500"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "300",
+              "silver_star": "375",
+              "gold_star": "450",
+              "purple_star": "600"
+            }
+          }
+        ],
+        "location": [
+          "Mountain Lake"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Summer",
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Tiger Trout",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "187",
+              "silver_star": "233",
+              "gold_star": "281",
+              "purple_star": "375"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "225",
+              "silver_star": "280",
+              "gold_star": "337",
+              "purple_star": "450"
+            }
+          }
+        ],
+        "location": [
+          "Ocean",
+          "Ginger Islands Rivers"
+        ],
+        "time": [
+          "6am-2pm"
+        ],
+        "season": [
+          "Summer",
+          "Fall",
+          "All Seasons on Ginger Island"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Bullhead",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "93",
+              "silver_star": "116",
+              "gold_star": "140",
+              "purple_star": "187"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "112",
+              "silver_star": "139",
+              "gold_star": "168",
+              "purple_star": "225"
+            }
+          }
+        ],
+        "location": [
+          "Mountain Lake"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Tilapia",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "93",
+              "silver_star": "116",
+              "gold_star": "140",
+              "purple_star": "187"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "112",
+              "silver_star": "139",
+              "gold_star": "168",
+              "purple_star": "225"
+            }
+          }
+        ],
+        "location": [
+          "Ocean",
+          "Ginger Islands Rivers"
+        ],
+        "time": [
+          "6am-2pm"
+        ],
+        "season": [
+          "Summer",
+          "Fall",
+          "All Seasons on Ginger Island"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Chub",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "50",
+              "silver_star": "62",
+              "gold_star": "75",
+              "purple_star": "100"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "62",
+              "silver_star": "77",
+              "gold_star": "93",
+              "purple_star": "125"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          }
+        ],
+        "location": [
+          "Forest River",
+          "Mountain Lake"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "Summer"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Dorado",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "125",
+              "silver_star": "156",
+              "gold_star": "187",
+              "purple_star": "250"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          }
+        ],
+        "location": [
+          "River (Forest)"
+        ],
+        "time": [
+          "6am-7pm"
+        ],
+        "season": [
+          "Summer"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Shad",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "60",
+              "silver_star": "75",
+              "gold_star": "90",
+              "purple_star": "120"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "90",
+              "silver_star": "112",
+              "gold_star": "135",
+              "purple_star": "180"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)"
+        ],
+        "time": [
+          "9am-2am"
+        ],
+        "season": [
+          "Spring",
+          "Summer",
+          "Fall"
+        ],
+        "weather": [
+          "Rain"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Lingcod",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "120",
+              "silver_star": "150",
+              "gold_star": "180",
+              "purple_star": "240"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "180",
+              "silver_star": "225",
+              "gold_star": "270",
+              "purple_star": "360"
+            }
+          }
+        ],
+        "location": [
+          "River (Town + Forest)",
+          "Mountain Lake"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Halibut",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "80",
+              "silver_star": "100",
+              "gold_star": "120",
+              "purple_star": "160"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "120",
+              "silver_star": "150",
+              "gold_star": "180",
+              "purple_star": "240"
+            }
+          }
+        ],
+        "location": [
+          "Ocean"
+        ],
+        "time": [
+          "6am-11am",
+          "7pm-2am"
+        ],
+        "season": [
+          "Spring",
+          "Summer",
+          "Winter"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Woodskip",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "75",
+              "silver_star": "93",
+              "gold_star": "112",
+              "purple_star": "150"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "93",
+              "silver_star": "116",
+              "gold_star": "140",
+              "purple_star": "187"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "112",
+              "silver_star": "139",
+              "gold_star": "168",
+              "purple_star": "225"
+            }
+          }
+        ],
+        "location": [
+          "Secret Woods Pond",
+          "Forest Farm"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Void Salmon",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "187",
+              "silver_star": "233",
+              "gold_star": "281",
+              "purple_star": "375"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "225",
+              "silver_star": "280",
+              "gold_star": "337",
+              "purple_star": "450"
+            }
+          }
+        ],
+        "location": [
+          "Witch's Swamp"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Slimejack",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "125",
+              "silver_star": "156",
+              "gold_star": "187",
+              "purple_star": "250"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          }
+        ],
+        "location": [
+          "Mutant Bug Lair"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Stingray",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "180",
+              "silver_star": "225",
+              "gold_star": "270",
+              "purple_star": "360"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "225",
+              "silver_star": "281",
+              "gold_star": "337",
+              "purple_star": "450"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "270",
+              "silver_star": "337",
+              "gold_star": "405",
+              "purple_star": "540"
+            }
+          }
+        ],
+        "location": [
+          "Pirate Cove On Ginger Island"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Lionfish",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "100",
+              "silver_star": "125",
+              "gold_star": "150",
+              "purple_star": "200"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "125",
+              "silver_star": "156",
+              "gold_star": "187",
+              "purple_star": "250"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          }
+        ],
+        "location": [
+          "Ginger Island Ocean"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    },
+    {
+      "header": {
+        "name": "Blue Discus",
+        "pricing": [
+          {
+            "no_profession_pricing": {
+              "base_price": "120",
+              "silver_star": "150",
+              "gold_star": "180",
+              "purple_star": "240"
+            }
+          },
+          {
+            "fisher_profession": {
+              "base_price": "150",
+              "silver_star": "187",
+              "gold_star": "225",
+              "purple_star": "300"
+            }
+          },
+          {
+            "angler_profession": {
+              "base_price": "180",
+              "silver_star": "225",
+              "gold_star": "270",
+              "purple_star": "360"
+            }
+          }
+        ],
+        "location": [
+          "Ginger Island Pond & Rivers"
+        ],
+        "time": [
+          "Anytime"
+        ],
+        "season": [
+          "All Seasons"
+        ],
+        "weather": [
+          "Any"
+        ]
+      }
+    }
+  ]
+}

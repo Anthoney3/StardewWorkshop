@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Stardew Fish Catalog Homepage</title>
+    <link rel="stylesheet" type="text/css" href="/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/utility.js"></script>
+</head>
+<body id="body">
+<nav>
+    <div class="topnav">
+        <a class="active" th:href="@{/api/home}">Home</a>
+        <a th:href="@{/api/home}">About</a>
+        <a th:href="@{/api/home}">Contact</a>
+
+
+        <div class="search-container">
+            <div class="all-seasons-checkbox">
+                <input id="all-seasons-checkbox" type="checkbox" checked="checked">
+                <label for="all-seasons-checkbox">Show All Season Fish</label>
+            </div>
+            <form action="#" class="nav-form" th:action="@{/api/fish_info}">
+                <input type="text" placeholder="Search..." name="filter">
+                <button type="submit"></button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div id="table-div">
+    <h2 id="title"></h2>
+    <table class="main-table">
+        <thead class="main-table-headers">
+        <tr class="table-header-override">
+            <th rowspan="4">Fish Name</th>
+            <th colspan="4">No Profession Pricing</th>
+            <th colspan="4">Fisher Profession Pricing (+25%)</th>
+            <th colspan="4">Angler Profession Pricing (+50%)</th>
+            <th rowspan="4">Time</th>
+            <th rowspan="4">Season</th>
+            <th rowspan="4">Weather</th>
+            <th rowspan="4">All Locations</th>
+
+        </tr>
+        <tr class="table-header-override">
+            <th class="base-price">Base Price</th>
+            <th class="silver-price">Silver Star Price</th>
+            <th class="gold-price">Gold Star Price</th>
+            <th class="purple-price">Purple Star Price</th>
+            <th class="base-price">Base Price</th>
+            <th class="silver-price">Silver Star Price</th>
+            <th class="gold-price">Gold Star Price</th>
+            <th class="purple-price">Purple Star Price</th>
+            <th class="base-price">Base Price</th>
+            <th class="silver-price">Silver Star Price</th>
+            <th class="gold-price">Gold Star Price</th>
+            <th class="purple-price">Purple Star Price</th>
+
+        </tr>
+        </thead>
+        <tbody>
+
+        <tr th:each="fish : ${fish_list}">
+            <td th:text="${fish.fish_name}"></td>
+            <td th:text="${fish.pricingModel.noProfessionPricing.base_price}"></td>
+            <td th:text="${fish.pricingModel.noProfessionPricing.silver_star_price}"></td>
+            <td th:text="${fish.pricingModel.noProfessionPricing.gold_star_price}"></td>
+            <td th:text="${fish.pricingModel.noProfessionPricing.purple_star_price}"></td>
+            <td th:text="${fish.pricingModel.fisherProfessionPricing.base_price}"></td>
+            <td th:text="${fish.pricingModel.fisherProfessionPricing.silver_star_price}"></td>
+            <td th:text="${fish.pricingModel.fisherProfessionPricing.gold_star_price}"></td>
+            <td th:text="${fish.pricingModel.fisherProfessionPricing.purple_star_price}"></td>
+            <td th:text="${fish.pricingModel.anglerProfessionPricing.base_price}"></td>
+            <td th:text="${fish.pricingModel.anglerProfessionPricing.silver_star_price}"></td>
+            <td th:text="${fish.pricingModel.anglerProfessionPricing.gold_star_price}"></td>
+            <td th:text="${fish.pricingModel.anglerProfessionPricing.purple_star_price}"></td>
+            <td>
+                    <span th:each="time,iterStat: ${fish.fish_timings}"
+                          th:text="${time} + ${!iterStat.last ? ' | ' : ''}"></span>
+            </td>
+            <td>
+                <span th:each="season,iterStat : ${fish.seasons}"
+                      th:text="${season} + ${!iterStat.last ? ' | ' : ''}"></span>
+            </td>
+            <td>
+                <span th:each="weather,iterStat : ${fish.weather_types}"
+                      th:text="${weather} + ${!iterStat.last ? ' | ' : ''}"></span>
+            </td>
+            <td>
+                <span th:each="location,iterStat : ${fish.location_types}"
+                      th:text="${location} + ${!iterStat.last ? ' | ' : ''}"></span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

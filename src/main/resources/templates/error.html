@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Stardew Fish Catalog Homepage</title>
+    <link rel="stylesheet" type="text/css" href="/error.css">
+    <script type="text/javascript" src="/utility.js" defer></script>
+</head>
+<body>
+<nav>
+    <div class="topnav">
+        <a class="active" th:href="@{/api/home}">Home</a>
+        <a th:href="@{/api/home}">About</a>
+        <a th:href="@{/api/home}">Contact</a>
+        <h2 id="title"></h2>
+        <div class="search-container">
+            <form action="#" class="nav-form" th:action="@{/api/fish_info}">
+                <input type="text" placeholder="Search..." name="filter">
+                <button type="submit"></button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div style="text-align: center">
+    <p id="error_description">Try Checking your Search Criteria</p>
+</div>
+
+</body>
+</html>
